@@ -1,0 +1,12 @@
+Jan 20 01:58:26 ubuntu sshd[18050]: Failed password for invalid user lim010618 from 192.168.220.1 port 49689 ssh2
+Jan 20 01:58:35 ubuntu sshd[18050]: Failed password for invalid user lim010618 from 192.168.220.1 port 49689 ssh2
+Jan 20 01:58:41 ubuntu sshd[18050]: Failed password for invalid user lim010618 from 192.168.220.1 port 49689 ssh2
+Jan 20 01:58:41 ubuntu sshd[18050]: Connection closed by invalid user lim010618 192.168.220.1 port 49689 [preauth]
+Jan 20 02:42:38 ubuntu sshd[18829]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60728 ssh2
+Jan 20 02:42:40 ubuntu sshd[18829]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60728 ssh2
+Jan 20 02:42:44 ubuntu sshd[18829]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60728 ssh2
+Jan 20 02:42:45 ubuntu sshd[18829]: Connection closed by invalid user sjkdflas 192.168.220.1 port 60728 [preauth]
+Jan 20 03:08:41 ubuntu sshd[19157]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60916 ssh2
+Jan 20 03:08:44 ubuntu sshd[19157]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60916 ssh2
+Jan 20 03:08:48 ubuntu sshd[19157]: Failed password for invalid user sjkdflas from 192.168.220.1 port 60916 ssh2
+Jan 20 03:08:49 ubuntu sshd[19157]: Connection closed by invalid user sjkdflas 192.168.220.1 port 60916 [preauth]
