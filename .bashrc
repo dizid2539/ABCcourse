@@ -10,6 +10,8 @@ alias c="clear"
 alias g="git"
 alias gs="git status"
 alias ga~="git add ~"
+alias gps="git push origin master" 
+alias gpl="git pull origin master" 
 PS1="\w > "
 
 # Source global definitions
