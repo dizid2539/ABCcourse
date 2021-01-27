@@ -289,3 +289,222 @@ ls
 sudo apt-get git
 clear
 apt-get install git
+git
+git init
+git commit --help
+git add ~
+git commit -m "initial update from uni07 server"
+git config --global user.email "dizid2539@unist.ac.kr"
+git config --global user.name "임형근"
+git commit -m "initial update from uni07 server"
+git status
+git remote add origin https://github.com/dizid2539/ABCcourse.git
+git push origin master
+bc "1+2+3"
+git pull origin master
+ls
+cd wrangling
+ls
+source *.sh
+average numlist.txt
+vim average.sh
+source *.sh
+average numlist.txt
+vim average.sh
+source *.sh
+average numlist.txt
+vim average.sh
+source average.sh
+average numlist.txt
+clear
+average numlist.txt
+ls
+summary_name invalid.log | awk '{print $1}'
+source summary_name.sh
+summary_name invalid.log | awk '{print $1}'
+source *.sh
+find *.sh
+
+source {*}.sh
+source *.sh
+summary_name invalid.log | awk '{print $1}' | average
+extract_disconnect
+source --help
+source -h
+source -help
+source
+vim average.sh
+git add average.sh
+git commit -m "edit average.sh"
+git push origin master
+cd wrangling
+. *.sh
+average numlist.txt
+summary_name invalid.log
+. summary_name.sh
+summary_name invalid.log
+cd wrangling
+find *.sh | awk '{source $1}'
+average numlist.txt
+find *.sh
+find *.sh | awk '{source $1}'
+vim average.sh
+find *.sh | awk '{bash $1}'
+average numlist.txt
+find *.sh | bash 
+find *.sh | source
+eval --help
+eval -h
+find *.sh | awk '{print $1)'
+find *.sh | awk '{print $1}'
+clear
+source *.sh
+average
+cd wrangling
+average
+source *.sh
+average
+cd wrangling
+find *.sh
+find *.sh | awk '{print $1}' | source
+find *.sh | awk '{print $1}' | bash
+bash average.sh
+average numlist.txt
+find *.sh | awk '{print $1}' | .
+find *.sh | paste -ds,
+find *.sh | awk '{print $1}' | paste -sd,
+shfile = file =
+shlist = find *.sh | awk '{print $1}' | paste -sd,
+bash a=1
+bash
+find *.sh | awk '{print $1}' | paste -sd | source {$1}
+find *.sh | awk '{print $1}' | paste -sd, | source {$1}
+find *.sh | sed 's/.sh//' | awk '{print $1}' | paste -sd,
+find *.sh | sed 's/.sh//' | awk '{print $1}' | paste -sd, | source {$1}.sh
+find *.sh | sed 's/.sh//' | awk '{print $1}' | paste -sd, | source {"$1"}.sh
+cleat
+clear
+cd ..
+vim .vimcr
+ls
+ls -l
+ls -h
+ls --help
+history
+ls --help
+ls --help | find hidden
+ls -a
+vim .vimrc
+cd wrangling
+source *.sh
+average numlist.txt
+vim summary_name.sh
+summary_name invalid.log
+source *.sh
+summary_name invalid.log
+. summary_name.sh
+summary_name invalid.log
+ls
+ls ;a
+ls -a
+mkdir environment
+cd environment
+clesr
+clear
+sleep 10
+sleep 1000000000
+SIGINT
+signal
+man signal
+clwar
+clear
+vim sigint.py
+python3 sigint.py 100
+vim sigint.py
+python3 sigint.py 100
+vim sigint.py
+clear
+python3 sigint.py 100
+SIGKILL
+sleep 1000
+nohup sleep 2000 &
+jobs
+bg %1
+jobs
+kill %1
+jobs
+kill -STOP %1
+nohup sleep 2000 &
+jobs
+kill -STOP %2
+jobs
+kill -HUP %2
+jobs
+ls -la
+cd environment
+python3 sigint.py 1000
+sleep 1000
+nohup sleep 2000 &
+jobs
+bg %1
+jobs
+kill -STOP %1
+jobs
+kill -HUP %1
+jobs
+kill -HUP %2
+jobs
+kill -KILL %2
+jobs
+tmux
+tmux a
+tmux
+tmux ls
+tmux a
+tmux new -t hello
+tmux new 
+tmux ls
+tmux new -s hello
+tmux ls
+tmux a -t hello
+tmux -help
+tmux -h
+tmux new -s test
+tmux new -s test1
+tmux a -t test
+tmux new -s sigint
+rmux a
+tmux a
+clear
+ls -lah
+alias ll="ls -lah"
+ll
+alias gs="git status"
+gs
+alias mv="mv -i"
+alias mv
+alias ga~="git add ~"
+ga~
+gs
+ls
+ls -a
+vim .bashrc
+bash
+ll
+PS1=">"
+exit
+vim ~/.bashrc
+bash
+vim ~/.bashrc
+bash
+vim ~/.bashrc
+bash
+cd environment
+ll
+cd ..
+vim .bashrc
+clear
+vim .vimrc
+ssh dizid2539@192.169.220.128
+kill 1
+kill -SIGHUP 1

@@ -17,7 +17,10 @@
 $is_fizz
 
 # Command Line History (newest to oldest):
+:wq
 :q
+:g
+:Wq
 :%s/is_fizzz/is_fizz/g
 :%s/is_fizz/is_fizzz/g
 :%s/printf/print/g
@@ -29,9 +32,7 @@ $is_fizz
 :sp fizzbuzz.py
 :sp mkrntxt.py
 :vs mkrdtxt.py
-:wq
 :PlugInstall
-:Wq
 :ew
 :set nu
 :qi
@@ -64,46 +65,21 @@ $is_fizz
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	def fizz_buzz(limit):
-		for i in range(1, limit+1):
-			is_fizz = (i%3 == 0)
-				print('fizz')
-			elif not is_fizz and is_buzz:
-				print('buzz')
-			elif is_fizz and is_buzz:
-				print('fizzbuzz')
-			else:
-				print(i)
+"0	CHAR	0
+	alias 
 ""1	LINE	0
-	def fizz_buzz(limit):
-	        for i in range(1, limit+1):
-	                is_fizz = (i%3 == 0)
-	                        print('fizz')
-	                elif not is_fizz and is_buzz:
-	                        print('buzz')
-	                elif is_fizz and is_buzz:
-	                        print('fizzbuzz')
-	                else:
-	                        print(i)
-	
+	alias gc="git commit -m" 
 "2	LINE	0
 	
 "3	LINE	0
-	
-	def fizz_buzz(limit):
-		for i in range(1, limit+1):
-			is_fizz = (i%3 == 0)
-				print('fizz')
-			elif not is_fizz and is_buzz:
-				print('buzz')
-			elif is_fizz and is_buzz:
-				print('fizzbuzz')
-			else:
-				print(i)
+	alias 
 "4	LINE	0
-	
+	alias ll="ls -lah"
 "5	LINE	0
+	
+"6	LINE	0
+		print('f\r{i}', end='')
+"7	LINE	0
 	def fizz_buzz(limit):
 	        for i in range(1, limit+1):
 	                is_fizz = (i%3 == 0)
@@ -115,38 +91,59 @@ $is_fizz
 	                else:
 	                        print(i)
 	
-"6	CHAR	0
-	 random as r
+"8	LINE	0
 	
-"7	LINE	0
-	import sys
-	import re
-"8	CHAR	0
-			is_buzz = (i%5 == 0)
+"9	LINE	0
 	
-			if is_fizz and not is_buzz:
-	
-"9	CHAR	0
-	import sys
-	import re
-	import random as r
-	
+	def fizz_buzz(limit):
+		for i in range(1, limit+1):
+			is_fizz = (i%3 == 0)
+				print('fizz')
+			elif not is_fizz and is_buzz:
+				print('buzz')
+			elif is_fizz and is_buzz:
+				print('fizzbuzz')
+			else:
+				print(i)
 "-	CHAR	0
-	random as r
+	~
 
 # File marks:
-'0  44  50  ~/vim/random.txt
-'1  1  0  ~/vim/random.txt
-'2  1  0  ~/vim/hello.txt
-'3  1  9  ~/vim/fizzbuzz.py
-'4  6  8  ~/vim/mkrdtxt.py
-'5  21  6  ~/vim/fizzbuzz.py
-'6  3  0  ~/.vimrc
-'7  6  2  ~/vim/fizzbuzz.py
-'8  2  10  ~/.vimrc
-'9  18  4  ~/vim/fizzbuzz.py
+'0  9  14  ~/.bashrc
+'1  12  19  ~/.bashrc
+'2  3  8  ~/.vimrc
+'3  14  0  ~/.bashrc
+'4  13  8  ~/.bashrc
+'5  60  0  ~/.bashrc
+'6  61  17  ~/.bashrc
+'7  11  10  ~/environment/sigint.py
+'8  8  31  ~/environment/sigint.py
+'9  7  15  ~/environment/sigint.py
 
 # Jumplist (newest first):
+-'  9  14  ~/.bashrc
+-'  12  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  11  5  ~/.bashrc
+-'  10  6  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  3  8  ~/.vimrc
+-'  60  0  ~/.bashrc
+-'  30  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  8  0  ~/.bashrc
+-'  57  30  ~/.bashrc
+-'  61  0  ~/.bashrc
+-'  50  46  ~/.bashrc
+-'  11  10  ~/environment/sigint.py
+-'  8  0  ~/environment/sigint.py
+-'  7  0  ~/environment/sigint.py
+-'  9  1  ~/environment/sigint.py
+-'  1  0  ~/environment/sigint.py
+-'  1  0  ~/.vimcr
+-'  1  0  ~/wrangling/summary_name.sh
+-'  2  1  ~/wrangling/average.sh
+-'  1  0  ~/wrangling/average.sh
 -'  44  50  ~/vim/random.txt
 -'  9  0  ~/vim/random.txt
 -'  1  0  ~/vim/random.txt
@@ -161,7 +158,6 @@ $is_fizz
 -'  13  3  ~/vim/fizzbuzz.py
 -'  16  9  ~/vim/mkrdtxt.py
 -'  6  2  ~/vim/fizzbuzz.py
--'  3  0  ~/.vimrc
 -'  2  0  ~/.vimrc
 -'  18  4  ~/vim/fizzbuzz.py
 -'  1  0  ~/.vimrc
@@ -223,31 +219,63 @@ $is_fizz
 -'  1  0  ~/.vimrc/.vimrc
 -'  1  0  ~/.vimrc/.vimrc
 -'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  3  0  ~/.vimrc
--'  2  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  1  0  ~/.vimrc/.vimrc
--'  6  8  ~/vim/mkrdtxt.py
--'  6  8  ~/vim/mkrdtxt.py
--'  15  2  ~/vim/mkrdtxt.py
--'  1  9  ~/vim/fizzbuzz.py
--'  21  1  ~/vim/fizzbuzz.py
--'  6  8  ~/vim/mkrdtxt.py
--'  15  2  ~/vim/mkrdtxt.py
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	"	9	14
+	^	9	15
+	.	9	14
+	+	51	0
+	+	61	17
+	+	8	0
+	+	8	0
+	+	61	0
+	+	13	8
+	+	12	20
+	+	14	0
+	+	10	0
+	+	11	0
+	+	11	0
+	+	13	0
+	+	13	23
+	+	12	8
+	+	13	0
+	+	12	19
+	+	9	14
+
+> ~/.vimrc
+	"	3	8
+	^	3	9
+	.	3	8
+	+	1	9
+	+	2	10
+	+	3	8
+
+> ~/environment/sigint.py
+	"	11	10
+	^	11	11
+	.	11	10
+	+	7	37
+	+	8	5
+	+	2	23
+	+	12	0
+	+	10	8
+	+	8	31
+	+	11	10
+
+> ~/.vimcr
+	"	1	0
+
+> ~/wrangling/summary_name.sh
+	"	1	0
+
+> ~/wrangling/average.sh
+	"	2	1
+	^	2	57
+	.	2	56
+	+	1	7
+	+	2	56
 
 > ~/vim/random.txt
 	"	44	50
@@ -387,14 +415,6 @@ $is_fizz
 > ~/vim/random.py
 	"	1	0
 
-> ~/.vimrc
-	"	3	0
-	^	3	9
-	.	3	8
-	+	1	9
-	+	2	10
-	+	3	8
-
 > ~/.vimrc/.vimrc
 	"	1	0
 	^	1	11
@@ -463,30 +483,3 @@ $is_fizz
 
 > /usr/share/vim/vim74/doc/help.txt
 	"	1	0
-
-> /usr/share/vim/vim74/doc/editing.txt.gz
-	"	863	7
-	.	1659	0
-	+	1659	0
-
-> /usr/share/vim/vim74/doc/motion.txt.gz
-	"	370	29
-	.	1328	0
-	+	1328	0
-
-> ~/vim/vim.sh
-	"	2	6
-	^	2	7
-	.	2	6
-	+	2	6
-
-> ~/script/vim/vim.sh
-	"	1	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/test/mcd1/shd.sh
-	"	1	0
-	.	1	0
-	+	1	0

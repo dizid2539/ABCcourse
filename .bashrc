@@ -5,6 +5,12 @@
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias ll="ls -lah"
+alias c="clear"
+alias g="git"
+alias gs="git status"
+alias ga~="git add ~"
+PS1="\w > "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
