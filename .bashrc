@@ -7,31 +7,38 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ll="ls -lah"
 alias c="clear"
+alias v="vim"
 alias g="git"
 alias gs="git status"
-alias ga~="git add ~"
+alias ga="git add"
+alias gc="git commit -m"
 alias gps="git push origin master" 
 alias gpl="git pull origin master" 
+alias abc="cd ~/Documents/ABCcourse" 
 PS1="\w > "
+
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+if [ -f /opt ]; then 
 ############################################################
 ### Intel Compiler
 ############################################################
 #
-source /opt/intel/bin/compilervars.sh intel64
-source /opt/intel/mkl/bin/mklvars.sh intel64
+	source /opt/intel/bin/compilervars.sh intel64
+	source /opt/intel/mkl/bin/mklvars.sh intel64
 
 ############################################################
 ### SGE
 ############################################################
 #
-export SGE_ROOT=/opt/sge
-. $SGE_ROOT/default/common/settings.sh
+	export SGE_ROOT=/opt/sge
+	. $SGE_ROOT/default/common/settings.sh
+
+fi
 
 ############################################################
 ### Python
