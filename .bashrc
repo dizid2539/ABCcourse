@@ -18,6 +18,7 @@ PS1="\w > "
 
 if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
+fi
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
