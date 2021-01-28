@@ -14,9 +14,10 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gps="git push origin master" 
 alias gpl="git pull origin master" 
-alias abc="cd ~/Documents/ABCcourse" 
 PS1="\w > "
 
+if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
+	alias abc="cd ~/Documents/ABCcourse"
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
