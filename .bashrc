@@ -12,9 +12,8 @@ alias g="git"
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit -m"
-alias gl="git log --all --graph --decorate --oneline"
-alias gps="git push origin master" 
-alias gpl="git pull origin master" 
+alias gps="git push" 
+alias gpl="git pull" 
 PS1="\w > "
 
 if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
