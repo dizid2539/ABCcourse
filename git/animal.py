@@ -1,4 +1,6 @@
 import sys
+def cat():
+    print("meow")
 
 def default():
     print("hello")
