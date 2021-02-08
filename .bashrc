@@ -17,11 +17,12 @@ alias gps="git push"
 alias gpl="git pull" 
 PS1="\w > "
 
+# For git bash
 if [[ "$(uname)" == "MINGW64_NT-10.0-19042" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
 fi
 
-
+# For windows subsystem for linux (wsl)
 if [[ "$(uname)" == "Linux" ]]; then
 	alias abc="cd ~/ABCcourse"
 	export PATH="/home/dizid2539/.local/bin"
