@@ -24,6 +24,7 @@ fi
 
 if [[ "$(uname)" == "Linux" ]]; then
 	alias abc="cd ~/ABCcourse"
+	export PATH="/home/dizid2539/.local/bin"
 fi
 
 # Source global definitions
