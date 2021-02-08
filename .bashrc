@@ -17,7 +17,7 @@ alias gps="git push"
 alias gpl="git pull" 
 PS1="\w > "
 
-if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
+if [[ "$(uname)" == "MINGW64_NT-10.0-19042" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
 fi
 
