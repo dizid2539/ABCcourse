@@ -21,6 +21,10 @@ if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
 fi
 
+if [[ "$(hostname)" == "ubuntu" ]]; then
+	alias abc="cd ~/Documents/ABCcourse"
+fi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
