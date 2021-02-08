@@ -52,8 +52,8 @@ fi
 ### Python
 ############################################################
 #
-export PYTHONHOME=/opt/python/3.6.4
-export PYTHONPATH=${PYTHONHOME}/lib/python3.6/site-packages:$PYTHONPATH
+#export PYTHONHOME=/opt/python/3.6.4
+#export PYTHONPATH=${PYTHONHOME}/lib/python3.6/site-packages:$PYTHONPATH
 export PATH=${PYTHONHOME}/bin:$PATH
 export LD_LIBRARY_PATH=${PYTHONHOME}/lib:$LD_LIBRARY_PATH
 
