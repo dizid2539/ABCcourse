@@ -19,6 +19,7 @@ PS1="\w > "
 
 if [[ "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
+	alias ubuntu="ssh dizid2539@192.168.220.128"
 fi
 
 if [[ "$(hostname)" == "ubuntu" ]]; then
