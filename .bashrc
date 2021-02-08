@@ -19,11 +19,11 @@ PS1="\w > "
 
 if [[ "$(uname)" == "MINGW64_NT-10.0-19042" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
-	alias ubuntu="ssh dizid2539@192.168.220.128"
 fi
 
-if [[ "$(hostname)" == "ubuntu" ]]; then
-	alias abc="cd ~/Documents/ABCcourse"
+
+if [[ "$(uname)" == "Linux" ]]; then
+	alias abc="cd ~/ABCcourse"
 fi
 
 # Source global definitions
