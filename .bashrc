@@ -15,7 +15,7 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gps="git push" 
 alias gpl="git pull" 
-PS1="\w > "
+PS1="[\h] \W > "
 
 # For git bash
 if [[ "$(uname)" == "MINGW64_NT-10.0-19042" ]]; then
