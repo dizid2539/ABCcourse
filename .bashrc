@@ -17,21 +17,21 @@ alias gps="git push"
 alias gpl="git pull" 
 PS1="[\h] \W > "
 
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
 # For git bash
 if [[ "$(uname)" == "MINGW64_NT-10.0-19042" ]]; then
 	alias abc="cd ~/Documents/ABCcourse"
 fi
 
 # For windows subsystem for linux (wsl)
-if [[ "$(uname)" == "Linux" ]]; then
+if [[ "$(uname)" == "Linux" && "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
 	alias abc="cd ~/ABCcourse"
 	export PATH="/home/dizid2539/.local/bin"
 	export PATH="/usr/sbin"
-fi
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
 fi
 
 if [ -f /opt ]; then 
@@ -78,3 +78,8 @@ export PATH=$MPI_HOME/bin:$PATH
 export MANPATH=$MPI_HOME/man:$MANPATH
 export LD_LIBRARY_PATH=$MPI_HOME/lib:$LD_LIBRARY_PATH
 
+#For gnome in wsl
+if [[ "$(uname)" == "Linux" && "$(hostname)" == "DESKTOP-ACL26QC" ]]; then
+	export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+	export LIBGL_ALWAYS_INDIRECT=1
+fi
